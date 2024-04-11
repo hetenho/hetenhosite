@@ -1,19 +1,15 @@
 import { Title } from "@solidjs/meta";
-import Counter from "~/components/Counter";
+import Hero from "~/components/Hero";
+import Skills from "~/components/Skills";
 
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
-      <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
-      </p>
+      <Title>HTSC</Title>
+      <div class="content">
+        <Hero />
+        {/* <Skills /> */}
+      </div>
     </main>
   );
 }
